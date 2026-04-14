@@ -1,0 +1,25 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #fff;
+    padding: 10px;
+}
+
+th {
+    background: #ff4b2b;
+}
+
+tr:nth-child(even) {
+    background: rgba(255,255,255,0.1);
+}

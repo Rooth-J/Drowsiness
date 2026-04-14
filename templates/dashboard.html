@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Drive AI Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>🚗 Smart Drive AI – Alerts Dashboard</h1>
+
+    <table>
+        <tr>
+            <th>Time</th>
+            <th>Alert Message</th>
+        </tr>
+
+        {% for row in data %}
+        <tr>
+            <td>{{ row.timestamp }}</td>
+            <td>{{ row.message }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
