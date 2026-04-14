@@ -1,0 +1,16 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+.env
+.DS_Store
+.vscode/
+.idea/
+models/*.h5  # Keep trained model, ignore new trainings
+shape_predictor_68_face_landmarks.dat.tmp
+*.log
+tmp/
+

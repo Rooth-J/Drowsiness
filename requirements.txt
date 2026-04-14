@@ -1,0 +1,12 @@
+flask==3.0.3
+pymongo==4.8.0
+opencv-python==4.10.0.82
+numpy==1.26.4
+dlib==19.24.6
+scipy==1.14.1
+tensorflow==2.17.0
+pyttsx3==2.91
+pushbullet.py==0.13.0
+pushbullet==0.7.0
+matplotlib==3.9.2
+

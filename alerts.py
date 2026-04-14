@@ -3,7 +3,7 @@ import time
 from database import collection
 
 # ================= PUSHBULLET =================
-API_KEY = "o.cIiF7BNs7J3qeKCnNPopjpl2VOUQ9QFr"
+import os&#10;API_KEY = os.getenv('PUSHBULLET_API_KEY')
 pb = Pushbullet(API_KEY)
 
 # ================= ALERT CONTROL =================
