@@ -1,0 +1,18 @@
+Driver Drowsiness Detection 
+Folders
+ --> Dataset 
+ -->  Pycache
+ -->  models
+ -->  static
+  --> template
+  --> venv
+Files
+   --> alerts.py
+   --> app.py
+   --> config.py
+   --> database.py
+   --> main.py
+   --> drowsinees.py
+   --> main.py
+model
+    Shape_predictor_68_face_landmark
